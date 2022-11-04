@@ -39,7 +39,7 @@ To install this cli globally, run this after
 npm install -g .
 ```
 
-**Note**: Run `npm install` whether or not you try to install this package globally.
+**Note**: Run `npm install` whether or not you're trying to install this package globally.
 
 This allow you to run the script from anywhere on your machine
 
