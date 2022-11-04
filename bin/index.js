@@ -27,6 +27,8 @@ readCSV(args[2]).then((data) => {
   console.log("Creating new CSV with hash");
 
   createNewCSV("updatedCSV.csv", data);
+
+  console.log("Successfully created new csv file, you're good to go!!");
 });
 
 function createNFTFolder() {
