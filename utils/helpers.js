@@ -33,7 +33,7 @@ function generateChipFormat(nft) {
         value: nft.Gender,
       },
     ],
-    collection: genCollectionData(nft.UUID),
+    collection: genCollectionData("b774f676-c1d5-422e-beed-00ef5510c64d"),
   };
 }
 
