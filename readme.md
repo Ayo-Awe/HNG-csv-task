@@ -38,6 +38,12 @@ npm install
 npm install -g .
 ```
 
+or
+
+```bash
+npm link
+```
+
 ### Usage
 
 ![usage](usage.png)
