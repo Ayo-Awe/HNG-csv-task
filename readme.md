@@ -22,6 +22,8 @@ Clone the repository via
 
 ```bash
 git clone https://github.com/Ayo-Awe/HNG-csv-task.git
+
+cd HNG-csv-task
 ```
 
 Install package dependencies
@@ -30,11 +32,14 @@ Install package dependencies
 npm install
 ```
 
-Alternatively,
+To install this cli globally, run this after
+`npm install`
 
 ```bash
 npm install -g .
 ```
+
+**Note**: Run `npm install` whether or not you try to install this package globally.
 
 This allow you to run the script from anywhere on your machine
 
@@ -52,7 +57,17 @@ If you've installed the package globally, you can run the application via
 gen-json csvfile.csv
 ```
 
-Otherwise, use npx as shown below
+If you try running the script on windows and you get an error similar to this
+
+![policyError](policyError.png)
+
+You can resolve it by running,
+
+```ps
+ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Otherwise, use npx as shown below and run from root of the application
 
 ```bash
 npx gen-json csvfile.csv
