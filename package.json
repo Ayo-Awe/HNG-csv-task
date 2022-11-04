@@ -8,7 +8,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "hng-csv-task": "bin/index.js"
+    "gen-json": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

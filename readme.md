@@ -26,22 +26,17 @@ git clone https://github.com/Ayo-Awe/HNG-csv-task.git
 cd HNG-csv-task
 ```
 
-Install package dependencies
+- Install package dependencies
 
 ```bash
 npm install
 ```
 
-To install this cli globally, run this after
-`npm install`
+- Install command globally,
 
 ```bash
 npm install -g .
 ```
-
-**Note**: Run `npm install` whether or not you're trying to install this package globally.
-
-This allow you to run the script from anywhere on your machine
 
 ### Usage
 
@@ -51,7 +46,7 @@ This allow you to run the script from anywhere on your machine
 
 **parameters**: filename
 
-If you've installed the package globally, you can run the application via
+Once you've installed the package globally, you can run the application via
 
 ```bash
 gen-json csvfile.csv
@@ -65,12 +60,6 @@ You can resolve it by running,
 
 ```ps
  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-Otherwise, use npx as shown below and run from root of the application
-
-```bash
-npx gen-json csvfile.csv
 ```
 
 **Note**: your file doesn't need to be named csvfile.csv
